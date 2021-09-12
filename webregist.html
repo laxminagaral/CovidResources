@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Registration page</title>
+<style>
+body{
+   background-color:#7FFFD4;
+   font-size:25px;
+}
+h2{
+	text-align:center;
+	padding:0 0 20px 0;
+	border-bottom:1px solid silver;
+}
+input{
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+form{
+	position:absolute;
+	top:60%;
+	left:50%;
+    padding-bottom:9px;
+	width:500px;
+	background:white;
+	border-radius:10px;
+	transform:translate(-50%,-50%);
+	border: 3px solid #f1f1f1;
+}
+.container {
+    padding: 14px;
+}
+
+.btn1{
+    margin-top:7%;
+    margin-left:40%;
+}
+</style>
+</head>
+<body>
+<form>
+<h2 >Registration</h2>
+  <div class="container">
+    <label for="place">Fullname:</label>
+    <input type="text" placeholder="Enter Fullname" name="name" required><br><br>
+    <label for="lan">Username:</label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+	<label for="pn">Email:</label>
+    <input type="code" placeholder="Enter Email" name="em" required><br><br>
+	<label for="pn">Phone Number:</label>
+    <input type="code" placeholder="Enter PhoneNumber" name="pn" required><br><br>
+	<label for="pn">Confirm Password:</label>
+    <input type="code" placeholder="Confirm Password" name="pss" required><br><br>
+	<label>Gender</label>
+	<div>
+​ <label><input type="radio" name="gender" value="FEMALE"/>Male</label>
+​ <label><input type="radio" name="gender" value="MALE"/>Female</label></div>
+    <button type="submit" class="btn1">SUBMIT</button>
+</div>
+</form>
+</body>
+</html>
